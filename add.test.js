@@ -1,5 +1,5 @@
-import { add } from './add';
-import nock from 'nock';
+const { add } = require('./add');
+const nock = require('nock');
 
 // Nock configuration
 // eslint-disable-next-line jest/require-hook
